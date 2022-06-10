@@ -2,14 +2,14 @@ import React from 'react';
 import './App.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import Header from './Components/Header';
-import Body from './Components/Body';
+import MainBody from './Components/MainBody';
 import Footer from './Components/Footer';
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Body />
+      <MainBody />
       <Footer />
     </div>
   );

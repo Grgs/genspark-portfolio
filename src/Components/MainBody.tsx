@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Body() {
+export default function MainBody() {
   const projects = [
     {
       URL: "https://github.com/Grgs/HumansVsGoblins_GUI",
@@ -20,9 +20,16 @@ export default function Body() {
   const projectList = projects.map((project) => {
     return <li><a href={project.URL}>{project.name}</a> {project.description}</li>;
   });
+
   return (
-    <body className="App-body">
-      {projectList}
-    </body>
+    <div className="App-MainBody">
+      <ul className="main-list">
+        {projectList}
+        <li className="github-link">
+          <a href="https://github.com/Grgs"> More on Github </a>
+        </li>
+
+      </ul>
+    </div>
   );
 }
