@@ -8,7 +8,13 @@
   font-size: calc(10px + 2vmin);
 }
 
-.App-MainBody {}
+/* .App-MainBody ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 5px;
+  background-color: #333;
+  color: #fff;
+} */
 
 .App-footer {
   text-align: center;

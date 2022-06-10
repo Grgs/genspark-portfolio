@@ -1,4 +1,5 @@
 import React from "react";
+import Project from "./Project";
 
 export default function MainBody() {
   const projects = [
@@ -16,19 +17,19 @@ export default function MainBody() {
       URL: "https://github.com/Grgs/Hangman",
       name: "Hangman",
       description: "A word guessing game."
-    },];
-  const projectList = projects.map((project) => {
-    return <li><a href={project.URL}>{project.name}</a> {project.description}</li>;
-  });
+    },
+    {
+      URL: "https://github.com/Grgs",
+      name: "More on Github",
+      description: "My Github profile."
+    }
+  ];
+  const projectList = projects.map((project) => <Project {...project} />);
 
   return (
-    <div className="App-MainBody">
-      <ul className="main-list">
+    <div className="App-MainBody container flex-content-center">
+      <ul>
         {projectList}
-        <li className="github-link">
-          <a href="https://github.com/Grgs"> More on Github </a>
-        </li>
-
       </ul>
     </div>
   );
