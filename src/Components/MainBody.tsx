@@ -28,9 +28,7 @@ export default function MainBody() {
 
   return (
     <div className="App-MainBody container flex-content-center">
-      <ul>
         {projectList}
-      </ul>
     </div>
   );
 }
