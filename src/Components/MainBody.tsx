@@ -6,16 +6,19 @@ const projects = [
     URL: "https://github.com/Grgs/HumansVsGoblins_GUI",
     name: "Humans Vs. Goblins",
     description: "A tile-based game, where the player controls a human character and must navigate through a grid, avoiding or fighting the goblin along the way.",
+    image: "./images/human-vs-goblin-screenshot.png",
   },
   {
     URL: "https://github.com/Grgs/HyperskillAccountService",
     name: "Hyperskill Account Service",
     description: "This is a Rest service that allows you to create an account and login to your account. It also manages lockout after repeated authentication failure.",
+    image: "./images/hyperskill_account_services_dalle.png",
   },
   {
     URL: "https://github.com/Grgs/NumbersToWords",
     name: "Words to Numbers",
     description: "This program converts numbers to English words. It can convert the numbers to the modern English, traditional long scale British, traditional long scale European and Indian English number systems.",
+    image: "./images/numbers-to-words-dalle.png",
     more: <div><h6>Example:</h6>
       <p>for 123456789012</p>
       Western Modern number system:
@@ -32,12 +35,13 @@ const projects = [
   {
     URL: "https://github.com/Grgs/Hangman",
     name: "Hangman",
-    description: "A word guessing game."
+    description: "A word guessing game.",
+    image: "./images/hangman-dalle.png",
   },
   {
     URL: "https://github.com/Grgs/LS",
     name: "ls",
-    description: "A simple command line interface for listing files and directories in any operating system that can run Python."
+    description: "A simple command line interface for listing files and directories into columns. The utility should support any operating system that can run Python."
   },
   {
     URL: "https://github.com/Grgs",

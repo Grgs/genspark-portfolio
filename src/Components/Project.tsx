@@ -4,6 +4,7 @@ interface ProjectType {
   URL: string;
   name: string;
   description: string;
+  image?: string;
   more?: React.ReactNode;
 }
 
@@ -16,6 +17,7 @@ export default function Project(project: ProjectType) {
     <div className="card bg-light mb3">
 
       <div className="card-body" onClick={handleClick}>
+        {project.image && <img className="card-img-top" src={project.image} alt={project.name} />}
         <h5 className="card-title">{project.name}</h5>
         <p className="card-text">{project.description}
           {!showMore && project.more && <a href="#" className="float-right">  more...</a>}
