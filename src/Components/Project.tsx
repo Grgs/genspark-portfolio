@@ -14,13 +14,13 @@ export default function Project(project: ProjectType) {
 
 
   return (
-    <div className="card">
+    <div className="card bg-light">
       <div className="row g-0">
         <div className="col-sm-5">
           {project.image && <img className="card-img-top row" src={project.image} alt={project.name} />}
         </div>
         <div className="col-sm-7">
-          <div className="bg-light mb3">
+          <div className="mb3">
             <div className="card-body" onClick={handleClick}>
               <h5 className="card-title">{project.name}</h5>
               <p className="card-text">{project.description}
