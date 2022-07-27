@@ -5,7 +5,7 @@ export default function Header() {
     <header className="App-header">
       <div className="navbar navbar-dark box-shadow">
         <div className="container d-flex justify-content-between">
-          <a href="http://mgrgs.com/" className="text-white">Michael Guirguis</a>
+          <a href="https://mgrgs.com/" className="text-white">Michael Guirguis</a>
         </div>
       </div>
     </header>
