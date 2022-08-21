@@ -3,16 +3,16 @@ import Project from "./Project";
 
 const projects = [
   {
-    URL: "https://github.com/Grgs/HumansVsGoblins_GUI",
-    name: "Humans Vs. Goblins",
-    description: "A tile-based game, where the player controls a human character and must navigate through a grid, avoiding or fighting the goblin along the way.",
-    image: "./images/human-vs-goblin-screenshot.png",
-  },
-  {
     URL: "https://github.com/Grgs/HyperskillAccountService",
     name: "Hyperskill Account Service",
     description: "This is a Rest service that allows you to create an account and login to your account. It also manages lockout after repeated authentication failure.",
     image: "./images/hyperskill_account_services_dalle.png",
+  },
+  {
+    URL: "https://github.com/Grgs/HumansVsGoblins_GUI",
+    name: "Humans Vs. Goblins",
+    description: "A tile-based game, where the player controls a human character and must navigate through a grid, avoiding or fighting the goblin along the way.",
+    image: "./images/human-vs-goblin-screenshot.png",
   },
   {
     URL: "https://github.com/Grgs/NumbersToWords",
