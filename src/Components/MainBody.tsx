@@ -41,7 +41,8 @@ const projects = [
   {
     URL: "https://github.com/Grgs/LS",
     name: "ls",
-    description: "A simple command line interface for listing files and directories into columns. The utility should support any operating system that can run Python."
+    description: "A simple command line interface for listing files and directories into columns. The utility should support any operating system that can run Python.",
+    image: "./images/ls-dalle.png",
   },
   {
     URL: "https://github.com/Grgs",
